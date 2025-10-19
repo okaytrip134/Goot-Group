@@ -31,7 +31,7 @@ export default function SmartCombos() {
   ];
 
   return (
-    <section className="bg-[#0B3A33] text-white py-20 md:py-24 relative z-10">
+    <section className="bg-[#065389] text-white py-20 md:py-24 relative z-10">
       <div className="mx-auto max-w-[1400px] px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-40 items-start">
           {/* LEFT: text + list */}

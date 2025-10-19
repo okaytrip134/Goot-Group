@@ -25,7 +25,7 @@ export default function ResultsSection() {
 
           <Link
             href="#"
-            className="inline-block bg-[#D50000] text-white rounded-full px-6 py-3 text-sm font-medium shadow-md hover:bg-[#B80000] transition"
+            className="inline-block bg-[#23A3FF] text-white rounded-full px-6 py-3 text-sm font-medium shadow-md hover:bg-[#B80000] transition"
           >
             Book an intro call
           </Link>
@@ -34,13 +34,13 @@ export default function ResultsSection() {
         {/* === Grid Section === */}
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-2">
           {/* Proven Impact */}
-          <div className="bg-[#E9F6EE] p-8 rounded-2xl flex flex-col justify-between">
+          <div className="bg-[#23A3FF] p-8 rounded-2xl flex flex-col justify-between">
             <div>
-              <p className="text-[11px] uppercase tracking-widest text-neutral-600 font-semibold mb-6">
+              <p className="text-[11px] uppercase tracking-widest text-white font-semibold mb-6">
                 Proven Impact
               </p>
-              <h3 className="text-4xl font-semibold mb-3">1,200+</h3>
-              <p className="text-neutral-700 text-sm leading-relaxed">
+              <h3 className="text-4xl text-white font-semibold mb-3">1,200+</h3>
+              <p className="text-white text-sm leading-relaxed">
                 Businesses launched, scaled, or managed across the UAE.
               </p>
             </div>
@@ -58,13 +58,13 @@ export default function ResultsSection() {
           </div>
 
           {/* Client Confidence */}
-          <div className="bg-[#E9F6EE] p-8 rounded-2xl flex flex-col justify-between">
+          <div className="bg-[#23A3FF] p-8 rounded-2xl flex flex-col justify-between">
             <div>
-              <p className="text-[11px] uppercase tracking-widest text-neutral-600 font-semibold mb-6">
+              <p className="text-[11px] uppercase tracking-widest text-white font-semibold mb-6">
                 Client Confidence
               </p>
-              <h3 className="text-4xl font-semibold mb-3">98.9%</h3>
-              <p className="text-neutral-700 text-sm leading-relaxed">
+              <h3 className="text-4xl text-white font-semibold mb-3">98.9%</h3>
+              <p className="text-white text-sm leading-relaxed">
                 Retention rate across multi-service clients since 2010.
               </p>
             </div>
@@ -104,13 +104,13 @@ export default function ResultsSection() {
           </div>
 
           {/* Integrated Services */}
-          <div className="bg-[#E9F6EE] p-8 rounded-2xl flex flex-col justify-between md:col-span-2">
+          <div className="bg-[#23A3FF] p-8 rounded-2xl flex flex-col justify-between md:col-span-2">
             <div>
-              <p className="text-[11px] uppercase tracking-widest text-neutral-600 font-semibold mb-6">
+              <p className="text-[11px] uppercase tracking-widest text-white font-semibold mb-6">
                 Integrated Services
               </p>
-              <h3 className="text-4xl font-semibold mb-3">4-in-1</h3>
-              <p className="text-neutral-700 text-sm leading-relaxed">
+              <h3 className="text-4xl text-white font-semibold mb-3">4-in-1</h3>
+              <p className="text-white text-sm leading-relaxed">
                 Company setup, HR, property, and FM—handled by one expert team.
               </p>
             </div>

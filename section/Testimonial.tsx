@@ -62,7 +62,7 @@ export default function Testimonials() {
         <Slider ref={sliderRef} {...settings}>
           {testimonials.map((item, idx) => (
             <div key={idx} className="px-3">
-              <div className="bg-[#E9F6EE] rounded-2xl p-8 h-full flex flex-col justify-between text-left shadow-sm">
+              <div className="bg-[#d9efff] rounded-2xl p-8 h-full flex flex-col justify-between text-left shadow-sm">
                 <p className="text-neutral-800 text-base leading-relaxed mb-6">
                   {item.text}
                 </p>
@@ -87,7 +87,7 @@ export default function Testimonials() {
         <div className="flex justify-center items-center gap-6 mt-10">
           <button
             onClick={() => sliderRef.current?.slickPrev()}
-            className="p-3 rounded-full bg-[#E9F6EE] hover:bg-[#d4ecdc] transition shadow-sm"
+            className="p-3 rounded-full bg-[#d9efff] hover:bg-[#23A3FF] transition shadow-sm"
             aria-label="Previous testimonial"
           >
             <ChevronLeft className="w-6 h-6 text-neutral-700" />
@@ -95,7 +95,7 @@ export default function Testimonials() {
 
           <button
             onClick={() => sliderRef.current?.slickNext()}
-            className="p-3 rounded-full bg-[#E9F6EE] hover:bg-[#d4ecdc] transition shadow-sm"
+            className="p-3 rounded-full bg-[#d9efff] hover:bg-[#23A3FF] transition shadow-sm"
             aria-label="Next testimonial"
           >
             <ChevronRight className="w-6 h-6 text-neutral-700" />

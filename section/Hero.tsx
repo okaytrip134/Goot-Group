@@ -20,15 +20,15 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/40" />
 
       {/* Content */}
-      <div className="relative z-10 mx-auto flex h-full max-w-[1400px] items-end px-6 pb-16">
+      <div className="relative z-10 mx-auto flex h-full max-w-full items-end px-24 pb-24">
         <div className="max-w-2xl">
-          <h1 className="text-[28px] md:text-[52px] font-light leading-[1.2] text-white drop-shadow-md">
+          <h1 className="text-[70px] md:text-[70px] font-light leading-[1.2] text-white drop-shadow-md">
             Your Partner of <br /> Choice in India
           </h1>
 
           <Link
             href="/contact"
-            className="mt-6 inline-block rounded-full bg-[#D50000] px-7 py-3 text-sm font-medium text-white shadow-md hover:bg-[#B80000] transition"
+            className="mt-6 inline-block rounded-full bg-[#23A3FF] px-7 py-3 text-sm font-medium text-white shadow-md hover:bg-[#065389] transition"
           >
             Get Expert Advice Today
           </Link>

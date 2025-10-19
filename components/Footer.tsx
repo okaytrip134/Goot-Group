@@ -9,8 +9,8 @@ export default function Footer() {
       <div className="max-w-[1400px] mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-4 gap-10">
         {/* === Left: Logo & Contact === */}
         <div>
-          <Image
-            src="/Goot-logo-red.svg"
+          <img
+            src="/Goot Logo.svg"
             alt="Goot Group"
             width={150}
             height={40}
@@ -46,7 +46,7 @@ export default function Footer() {
               />
               <button
                 type="submit"
-                className="p-2 bg-neutral-800 hover:bg-neutral-700 transition text-white rounded-full mr-1"
+                className="p-2 bg-[#23A3FF] hover:bg-[#065389]  transition text-white rounded-full mr-1"
               >
                 <ArrowRight className="w-4 h-4" />
               </button>
@@ -114,7 +114,7 @@ export default function Footer() {
               <Link
                 key={idx}
                 href={href}
-                className="w-9 h-9 flex items-center justify-center bg-[#004734] text-white rounded-full hover:bg-[#00694c] transition"
+                className="w-9 h-9 flex items-center justify-center bg-[#23A3FF] hover:bg-[#065389]  text-white rounded-full transition"
               >
                 <Icon className="w-4 h-4" />
               </Link>
