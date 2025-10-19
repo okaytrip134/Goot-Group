@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+
+/* Use a valid selector for theme variables instead of the unknown @theme at-rule */
+:root[data-theme="inline"] {
+  --color-background: var(--accent);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #23A3FF;
+    --foreground: #ededed;
+    --accent: #032741;
+    --secondary:#065389;
+    --primary:#23A3FF;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
