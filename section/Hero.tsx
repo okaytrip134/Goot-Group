@@ -22,13 +22,13 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 mx-auto flex h-full max-w-full items-end px-24 pb-24">
         <div className="max-w-2xl">
-          <h1 className="text-[70px] md:text-[70px] font-light leading-[1.2] text-white drop-shadow-md">
+          <h1 className="text-[70px] md:text-[70px] font-light leading-[1.1] text-white drop-shadow-md">
             Your Partner of <br /> Choice in India
           </h1>
 
           <Link
             href="/contact"
-            className="mt-6 inline-block rounded-full bg-[#23A3FF] px-7 py-3 text-sm font-medium text-white shadow-md hover:bg-[#065389] transition"
+            className="mt-6 inline-block rounded-full  px-7 py-3 text-sm text-[16px] text-white shadow-md bg-[#065389] hover:bg-[#23A3FF] transition"
           >
             Get Expert Advice Today
           </Link>

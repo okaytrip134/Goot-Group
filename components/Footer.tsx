@@ -38,15 +38,15 @@ export default function Footer() {
             <p className="text-xs uppercase font-semibold mb-3 text-neutral-600">
               Subscribe for our newsletter
             </p>
-            <form className="flex items-center bg-neutral-100 rounded-full overflow-hidden w-full max-w-xs">
+            <form className="flex items-center bg-neutral-100 text-black rounded-full overflow-hidden w-full max-w-xs">
               <input
                 type="email"
-                placeholder="Email"
-                className="bg-transparent flex-1 px-4 py-2 text-sm outline-none"
+                placeholder="Enter your Email Address"
+                className=" flex-1 px-4 py-2 text-sm outline-none"
               />
               <button
                 type="submit"
-                className="p-2 bg-[#23A3FF] hover:bg-[#065389]  transition text-white rounded-full mr-1"
+                className="p-2 bg-[#065389] hover:bg-[#23A3FF]   transition text-white rounded-full mr-1"
               >
                 <ArrowRight className="w-4 h-4" />
               </button>

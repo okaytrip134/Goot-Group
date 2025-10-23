@@ -38,7 +38,7 @@ export default function CTASection() {
             Start Your Company
             <ArrowRight className="w-4 h-4" />
           </button>
-           <button className="bg-[#23A3FF] text-white font-medium rounded-full px-6 py-3 text-sm md:text-base flex items-center gap-2 hover:bg-[#065389] transition">
+           <button className="bg-[#065389] hover:bg-[#23A3FF]  text-white font-medium rounded-full px-6 py-3 text-sm md:text-base flex items-center gap-2 transition">
             Talk to an Expert
             <ArrowRight className="w-4 h-4" />
           </button>

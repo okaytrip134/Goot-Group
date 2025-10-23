@@ -1,8 +1,8 @@
 "use client";
-import Slider from "react-slick"; 
+import Slider from "react-slick";
 import Image from "next/image";
 import { useRef } from "react";
-import { ChevronLeft, ChevronRight } from "lucide-react"; // optional: nice clean icons
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export default function Testimonials() {
   const sliderRef = useRef<Slider>(null);
@@ -37,7 +37,7 @@ export default function Testimonials() {
     autoplaySpeed: 4000,
     slidesToShow: 3,
     slidesToScroll: 1,
-    arrows: false, // we’ll control them manually
+    arrows: false,
     pauseOnHover: true,
     responsive: [
       { breakpoint: 1024, settings: { slidesToShow: 2 } },
@@ -48,7 +48,7 @@ export default function Testimonials() {
   return (
     <section className="py-24 px-6 bg-white relative z-10">
       <div className="max-w-[1400px] mx-auto text-center">
-        {/* === Header === */}
+        {/* Header */}
         <p className="text-[11px] uppercase tracking-[0.18em] font-semibold text-neutral-600 mb-4">
           Testimonials
         </p>
@@ -58,14 +58,16 @@ export default function Testimonials() {
           formation, hiring, property, and operations.
         </h2>
 
-        {/* === Carousel === */}
+        {/* Carousel */}
         <Slider ref={sliderRef} {...settings}>
           {testimonials.map((item, idx) => (
             <div key={idx} className="px-3">
-              <div className="bg-[#d9efff] rounded-2xl p-8 h-full flex flex-col justify-between text-left shadow-sm">
-                <p className="text-neutral-800 text-base leading-relaxed mb-6">
+              <div className="bg-[#065389] rounded-2xl p-8 h-[280px] flex flex-col justify-between text-left shadow-sm">
+                {/* fixed height + truncated text */}
+                <p className="text-white text-base leading-relaxed mb-6 line-clamp-4">
                   {item.text}
                 </p>
+
                 <div className="flex items-center gap-3 mt-auto">
                   <Image
                     src={item.avatar}
@@ -74,7 +76,7 @@ export default function Testimonials() {
                     height={40}
                     className="rounded-full object-cover"
                   />
-                  <p className="text-sm font-semibold text-neutral-800">
+                  <p className="text-sm font-semibold text-white">
                     {item.author}
                   </p>
                 </div>
@@ -83,7 +85,7 @@ export default function Testimonials() {
           ))}
         </Slider>
 
-        {/* === Navigation Buttons === */}
+        {/* Navigation Buttons */}
         <div className="flex justify-center items-center gap-6 mt-10">
           <button
             onClick={() => sliderRef.current?.slickPrev()}
